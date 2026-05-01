@@ -1,0 +1,24 @@
+﻿Nome;Sobrenome;Departamento;Cargo;Gestor;DataAdmissao
+Bruno;Almeida;TI;Analista de Suporte;Carlos TI;01/05/2026
+Juliana;Ferreira;TI;Analista de Infraestrutura;Carlos TI;01/05/2026
+Rafael;Gomes;TI;Administrador de Redes;Carlos TI;01/05/2026
+Patricia;Mendes;TI;Analista de Sistemas;Carlos TI;01/05/2026
+Lucas;Barbosa;TI;Help Desk;Carlos TI;01/05/2026
+;;;;;
+Fernanda;Silva;RH;Analista de RH;Mariana RH;01/05/2026
+Carla;Souza;RH;Assistente de RH;Mariana RH;01/05/2026
+Renata;Oliveira;RH;Recrutadora;Mariana RH;01/05/2026
+Paulo;Ribeiro;RH;Analista de Treinamento;Mariana RH;01/05/2026
+Daniela;Costa;RH;Generalista RH;Mariana RH;01/05/2026
+;;;;;
+Marcos;Pereira;Financeiro;Analista Financeiro;Roberto FIN;01/05/2026
+Aline;Martins;Financeiro;Contadora;Roberto FIN;01/05/2026
+Thiago;Cardoso;Financeiro;Assistente Financeiro;Roberto FIN;01/05/2026
+Camila;Teixeira;Financeiro;Analista Fiscal;Roberto FIN;01/05/2026
+Eduardo;Nunes;Financeiro;Controller;Roberto FIN;01/05/2026
+;;;;;
+Gustavo;Rocha;Administrativo;Assistente Administrativo;Paula ADM;01/05/2026
+Tatiane;Dias;Administrativo;Recepcionista;Paula ADM;01/05/2026
+AndrÃ©;Freitas;Administrativo;Auxiliar Administrativo;Paula ADM;01/05/2026
+Simone;Batista;Administrativo;SecretÃ¡ria;Paula ADM;01/05/2026
+Ricardo;Moura;Administrativo;Office Manager;Paula ADM;01/05/2026

@@ -24,6 +24,8 @@ Demonstrar a implementação de um domínio corporativo contendo:
 ```text
 EMPRESA
 │
+├── GPO-Global-ControlPanelLock
+│
 ├── Administrativo
 │   ├── Usuarios
 │   ├── Grupos
@@ -90,52 +92,57 @@ Arquivo CSV contendo dados simulados de colaboradores:
 
 ### Estrutura de OUs
 
-![Estrutura](./prints/estrutura.png)
+![Estrutura](./prints//estrutura/estrutura.png)
 
 ### Usuários criados
 
-![Usuarios](./prints/usuarios.png)
+![Usuarios](./prints/estrutura/usuarios.png)
 
 ### Grupos organizacionais
 
-![Grupos](./prints/grupo.png)
+![Grupos](./prints//estrutura/grupo.png)
 
 ### Resolução DNS do domínio
 
-![ipconfig-srv](./prints/ipconfig-srv.png)
-![ipconfig-cli](./prints/ipconfig-cli.png)
-![ping](./prints/ping.png)
+[Domínio](./prints/endpoints/dominio)
 
-### Inclusão de máquina em domínio
+### Inclusão de máquina em domínio e Organização de Endpoints
 
-![maquina](./prints/dominio.png)
+[Endpoints](./prints/endpoints/maquina)
 
 ### Reset de senha e login em máquina com usuário
 
-![reset](./prints/reset.png)
-![senha](./prints/senha.png)
-![login](./prints/login.png)
+[Gerenciamento de Senhas](./prints/gerenciamente-de-senhas)
 
-### Organização de endpoints
+### Aplicação de GPO Global
 
-![Computadores](./prints/computadores1.png)
-![Computadores](./prints/computadores.png)
+[GPO Global](./prints/gpo/global)
+
+### Aplicação de Grupo de Exceção
+
+[Grupo de Exceção](./prints/gpo/exceção)
 
 ---
 
-## 🛠️ Troubleshooting
+## 🛠️ Troubleshooting Movimentação de Objeto
 
 Durante o processo foi identificado bloqueio por proteção contra exclusão acidental no objeto do Active Directory.
 
-![erro](./prints/erro.png)
+![Erro](./prints/troubleshooting/erro.png)
 
-A correção foi realizada através da remoção da opção:
+A correção foi realizada através da remoção da opção: 
+### Protect object from accidental deletion
 
-Protect object from accidental deletion
+## 🛠️ Troubleshooting GPO
+
+- Filtragem de aplicação de GPO via ACL
+- Delegation e Security Filtering
+- Aplicação de políticas globais
+- Atualização manual de políticas com gpupdate
 
 ---
 
-## 🚀 Como executar
+## 🚀 Como executar os Scrips no PowerShell
 
 ### 1. Criar estrutura organizacional
 
@@ -179,8 +186,10 @@ Protect object from accidental deletion
 
 ## 💡 Próximos passos
 
-* Aplicação de GPO por departamento
 * Controle de acesso NTFS
+* Compartilhamento de arquivos corporativos
+* Mapeamento automático de drives via GPO
+* Atualização automática de wallpaper
 
 ---
 
